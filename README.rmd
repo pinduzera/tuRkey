@@ -1,0 +1,23 @@
+---
+title: "tuRkey"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## tuRkey 
+
+A package that helps you find the time needed to cook your turkey of a given weight!
+
+```{r tuRkey}
+library("tuRkey")
+
+cook_turkey(5)
+
+cook_turkey(10)
+
+cook_turkey(40)
+```
+
